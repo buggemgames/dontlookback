@@ -24,7 +24,8 @@ class Preloader extends MovieClip
     public function new()
     {
         super();
-		trace("preloader has started really");
+        trace("Loading game through preloader class");
+		trace("Dont Look Back (Haxe) OSX Edition");
         adson = false;
         var rc_menu : ContextMenu = new ContextMenu();
         var credit : ContextMenuItem = new ContextMenuItem("Visit distractionware.com");
@@ -46,6 +47,13 @@ class Preloader extends MovieClip
     
     private function checkFrame(e : Event) : Void
     {
+		graphics.clear();
+        graphics.beginFill(1114884);
+        graphics.drawRect(0, 0, 640, 576);
+        graphics.endFill();
+        graphics.beginFill(15832473);
+        graphics.drawRect(120, 279, 400, 18);
+        graphics.endFill();
         startup(); //lol idc
     }
     
@@ -57,9 +65,9 @@ class Preloader extends MovieClip
     
     private function startup() : Void
     {
-		trace("Starting up main....");
+        trace("Starting up main....");
         removeEventListener(Event.ENTER_FRAME, checkFrame);
-        addChild(new Main_really());
+        addChild(new RealMain());
     }
 }
 

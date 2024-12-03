@@ -8,7 +8,7 @@ import flash.ui.ContextMenu;
 import flash.ui.ContextMenuItem;
 import flash.ui.Keyboard;
 
-class Main_really extends Sprite
+class RealMain extends Sprite
 {
     public var pi : Int;
     
