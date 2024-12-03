@@ -1,0 +1,10 @@
+Haxe Port by Buggem
+------------------------
+
+A port of the decompiled ActionScript to Haxe.
+
+NOTE: Do NOT use the src folder. It is pure decompiled AS3 without any modifications made, meaning it may not compile as intended.
+NOTE NOTE: As certain versions of Adobe Flash Player (at least for me) have a bug regarding the sound, which makes sound return NULL. For that patch, use the /haxe/src directory.
+
+
+3/12/24
