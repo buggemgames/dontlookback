@@ -3,9 +3,9 @@ Don't Look Back - Script and Assets Dump
 
 The source code and assets for Don't Look Back.
 
-Decompiled with [JPEXS FFDec](https://github.com/jindrapetrik/jpexs-decompiler) and [AS3Haxe](https://github.com/HaxeFoundation/as3hx), [FlashDevelop](https://github.com/fdorg/flashdevelop) and lots of hard work for the compiling
+Decompiled with [JPEXS FFDec](https://github.com/jindrapetrik/jpexs-decompiler) and [AS3Haxe](https://github.com/HaxeFoundation/as3hx), [FlashDevelop](https://github.com/fdorg/flashdevelop) and lots of hard work for the compiling Haxe port.
 
-Also contains a WIP compiling Haxe port, availible for compilation in FlashDevelop. (It's SWF can be found [here](https://github.com/buggemgames/dontlookback/raw/refs/heads/main/haxe/bin/haxe.swf))
+Port availible for compilation in FlashDevelop. (It's SWF can be found [here](https://github.com/buggemgames/dontlookback/raw/refs/heads/main/haxe/bin/haxe.swf))
 
 If you are looking for the original SWF archive, they can be found here:
 
