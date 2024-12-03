@@ -1454,6 +1454,7 @@ class Main_really extends Sprite
     
     public function lockedloop(e : Event) : Void
     {
+        // We are being denied :(
         dwgfx.backbuffer.lock();
         dwgfx.bprint(5, 57, "Sorry! This version of", 255, 177, 181, true);
         dwgfx.bprint(5, 67, "the game cannot be", 255, 177, 181, true);
@@ -1465,11 +1466,12 @@ class Main_really extends Sprite
     
     public function sitelock() : Bool
     {
-        var currUrl : String = stage.loaderInfo.url.toLowerCase();
-        if (currUrl.indexOf("ile:///") <= 0 || currUrl.indexOf("http") == 0)
+        /*var currUrl : String = stage.loaderInfo.url.toLowerCase();
+        if (currUrl.indexOf("file:///") < 0 || currUrl.indexOf("http") == 0)
         {
             return false;
-        }
+        }*/
+        // Keep the handling of the original, but just ignore it. Sitelock should always return true in this case, as this port is multiplatform
         return true;
     }
     
